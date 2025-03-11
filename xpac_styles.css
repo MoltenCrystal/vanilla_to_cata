@@ -1,0 +1,68 @@
+body {
+  background-color: #2F2F2F;
+}
+.logo_container_vanilla {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.logo_vanilla {
+	background-image: url('logo/logo_vanilla.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	float: left;
+	height: 118px;
+	width: 400px;
+	padding: 80px;
+	text-align: center;
+}
+
+.logo_container_tbc{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.logo_tbc {
+	background-image: url('logo/logo_tbc.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	float: left;
+	height: 118px;
+	width: 400px;
+	padding: 80px;
+	text-align: center;
+}
+
+.logo_container_wotlk {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.logo_wotlk {
+	background-image: url('logo/logo_wotlk.png');
+	background-size: 80%;
+	background-repeat: no-repeat;
+	background-position: center;
+	float: left;
+	height: 118px;
+	width: 400px;
+	padding: 80px;
+	text-align: center;
+}
+
+.logo_container_cata {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.logo_cata {
+	background-image: url('logo/logo_cata.png');
+	background-size: 87%;
+	background-repeat: no-repeat;
+	background-position: center;
+	float: left;
+	height: 118px;
+	width: 400px;
+	padding: 80px;
+	text-align: center;
+}

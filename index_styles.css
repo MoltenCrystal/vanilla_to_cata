@@ -1,0 +1,115 @@
+body {
+  background-color: #2F2F2F;
+}
+.conatiner_xpac{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 930px;
+}
+
+.child_container_xpac_vanilla {
+	background-position: 700px;
+	height: 600px;
+	width: 215px;
+	padding: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.child_container_xpac_tbc {
+	background-image: url('front/tbc_front.png');
+	background-position: 800px;
+	height: 600px;
+	width: 215px;
+	padding: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.child_container_xpac_wotlk {
+	background-image: url('front/wotlk_front.png');
+	background-position: 1700px;
+	height: 600px;
+	width: 215px;
+	padding: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.child_container_xpac_cata {
+	background-image: url('front/cata_front.png');
+	background-position: 2000px;
+	height: 600px;
+	width: 215px;
+	padding: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.xpac_vanilla {
+	background-image: url('icon/icon_vanilla.png');
+	filter: drop-shadow(0px 20px 4px black);
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 50%;
+	height: 135px;
+	width: 135px;
+	padding: 40px;
+	text-align: center;
+}
+
+.xpac_tbc {
+	background-image: url('icon/icon_tbc.png');
+	filter: drop-shadow(0px 20px 4px black);
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 50%;
+	float: left;
+	height: 135px;
+	width: 135px;
+	padding: 40px;
+	text-align: center;
+}
+#vanilj {
+	background-image: url('front/vanilla_front.png');
+}
+
+.xpac_wotlk {
+	background-image: url('icon/icon_wotlk.png');
+	filter: drop-shadow(0px 20px 4px black);
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 50%;
+	float: left;
+	height: 135px;
+	width: 135px;
+	padding: 40px;
+	text-align: center;
+}
+.xpac_cata {
+	background-image: url('icon/icon_cata.png');
+	filter: drop-shadow(0px 20px 4px black);
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 50%;
+	float: left;
+	height: 135px;
+	width: 135px;
+	padding: 40px;
+	text-align: center;
+}
+
+.xpac_vanilla:hover {
+	box-shadow: 0 0 40px yellow;
+}
+.xpac_tbc:hover {
+	box-shadow: 0 0 40px greenyellow;
+}
+.xpac_wotlk:hover {
+	box-shadow: 0 0 40px turquoise;
+}
+.xpac_cata:hover {
+	box-shadow: 0 0 40px orange;
+}
