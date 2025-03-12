@@ -2,30 +2,27 @@ body {
     background-color: black;
 }
 
-.logo {
-    display: block;
+.center {
+    display: flex;
     margin-left: auto;
     margin-right: auto;
-    height: 197px;
-    width: 500px;
   }
 
 .container {
     background-color: gray;
     display: flex;
-	justify-content: center;
+    align-items: center;
+    flex-direction: column;
+	justify-content: top;
 	height: 4000px;
     width: 1300px;
-    padding: 30px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 
 .progression {
     background-color: beige;
     display: flex;
     justify-content: space-evenly;
-    padding: 10px;
     height: 400px;
     width: 1200px;
 }
@@ -35,6 +32,7 @@ body {
     display: flex;
     flex-direction: column;
     height: fit-content;
+    margin-top: 40px;
     padding-bottom: 60px;
     width: 190px;
 }
