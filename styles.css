@@ -28,12 +28,17 @@ body {
 }
 
 .raidset {
-    background-color: blue;
+    background-color: #002665;
+    background: linear-gradient(
+       to bottom, 
+       #002665 30%,
+       rgba(0,0,0,0) 100%
+    );
     display: flex;
     flex-direction: column;
     height: fit-content;
     margin-top: 40px;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
     width: 190px;
 }
 
